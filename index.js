@@ -85,3 +85,8 @@ client.on("message", async (message) => {
     message.reply(i18n.__("common.errorCommand")).catch(console.error);
   }
 });
+
+
+
+
+bot.login(process.env.BOT_TOKEN);
